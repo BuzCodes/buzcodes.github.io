@@ -1,12 +1,9 @@
 <!-- HELLO
 -
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
 GitHub repo: https://github.com/AnilSeervi/DevFolio
 README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
 -
-Have fun creating your portfolio on this template!!! -->
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +18,7 @@ Have fun creating your portfolio on this template!!! -->
     <title>Alessandro Loi | Software Engineer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[holybuz], [Alessandro Loi], iOS, Apple, VisionOS, Swift, SwiftUI, CoreData, ARKit" />
+    <meta name="keywords" content="holybuz, Alessandro Loi, iOS, Apple, VisionOS, Swift, SwiftUI, CoreData, ARKit" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
     <meta name="description" content="Alessandro Loi | iOS Software Engineer" />
@@ -30,38 +27,21 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
 
     <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+    <meta name="theme-color" content="#F65362" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://devfolio.js.org/" />
+    <meta property="og:url" content="https://holybuz.github.io" />
     <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
+    <meta property="og:title" content="Alessandro Loi | Software Engineer" />
     <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
+    <meta property="og:description" content="Alessandro Loi's Portfolio" />
     <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
     <meta
       property="og:image"
       content="https://devfolio.js.org/assets/devfolio.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
     />
 
     <!-- link tags -->
@@ -82,30 +62,63 @@ Have fun creating your portfolio on this template!!! -->
       type="text/javascript"
       src="./javascript/scrollveal.js"
     ></script>
-
   </head>
+
   <body>
+    
     <!-- Hero Section -->
     <div id="hero">
+      
       <section class="container">
         <h1 class="hero-title">
           Hello, I'm <span class="text-color-main name">Alessandro Loi</span>
           <br />
+          <p style="color: #121d1f; font-size: 30px; padding-top: 40px; font-weight: 150;" id="app"></p>
         </h1>
-        
-        <p style="color: #121d1f" id="app"></p>
         
         <br />
         <br />
 
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
-        </p>
+        <!-- <div class="social-links-hero">
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/alessandroloi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/HolyBuz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          
+      </div> -->
+
       </section>
+      
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
       ></a>
+
     </div>
+    
     <!-- /END Hero Section -->
 
     <!-- About Section -->
@@ -115,28 +128,29 @@ Have fun creating your portfolio on this template!!! -->
         <div class="row about-wrapper">
           <div class="about-wrapper__image">
             <img
-              class="img-fluid"
-              src="./assets/profile.png"
+              src="./assets/Ale.jpg"
               alt="Profile Image"
-              width="450"
-              height="350"
             />
           </div>
           <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+            <p class="about-wrapper__info-text  rainbow2">
+              I'm Alessandro Loi, a passionate software engineering leader with a proven track record of building and empowering high-performing teams. 
+              With over a decade of experience tackling complex challenges and delivering impactful results, 
+              I'm skilled in driving cross-functional collaboration and spearheading mobile engineering initiatives.
+              From pioneering browser-based AR at YaAR to overseeing the flagship Biometric Authenticator Apps at Keyless, 
+              I thrive in fast-paced environments where I can leverage my expertise in Swift, Objective-C, and agile methodologies to create elegant solutions.
+
             </p>
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+            <p class="about-wrapper__info-text  rainbow2">
+              Currently pursuing my Master's in Computer Science, 
+              I'm constantly pushing myself to stay ahead of the curve and 
+              bring the latest advancements to my work. 
+              Whether it's mentoring, refactoring code, or implementing new technologies, 
+              I'm fueled by a deep passion for building the future through code.
             </p>
+            
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="assets/CV_AL_2023.pdf" class="cta-btn cta-btn--resume">View Resume</a>
             </span>
           </div>
         </div>
@@ -150,27 +164,55 @@ Have fun creating your portfolio on this template!!! -->
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Each .row is a project -->
+          <!-- NEUROMORPHIC LIST-->
+          <!-- Each .row is a project NEUROMORPHIC LIST-->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title ran text-color-main"> Neuromorphic List</h3>
+              
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Stay on Top of Your To-Dos with Neuromorphic Design!
               </p>
+
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Neumorphic design.</li>
+                <li>Store permanently all your daily tasks and delete them when you're done.</li>
+                <li>Progress tracking.</li>
+                <li>Caching for performance.</li>
+                <li>Easy file retrieval.</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: SwiftUI, CoreData, No Third Party libraries
+                <br \>
+                <br \>
+                🚀 <b>Platform</b>: 📱iOS
+                <br \>
+                <br \>
+              </p>
+
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://github.com/HolyBuz/NeumorphicList"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+                  >
+                  <i class="fa-brands fa-github"></i>
+                  Source Code
+                  </a>
               </div>
             </div>
 
@@ -178,7 +220,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/Tasks.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -190,26 +232,57 @@ Have fun creating your portfolio on this template!!! -->
           </article>
           <!-- /END Project -->
 
+
+
+
+          <!-- DISCOVER TONIGHT-->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title ran text-color-main">Discover Tonight</h3>
+              
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Discover what to watch tonight!
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Discover movies and TV series.</li>
+                <li>Read details and ratings.</li>
+                <li>Custom UICollectionView behaviour.</li>
+                <li>Modal popup custom presentation.</li>
+                <li>Movies details thanks to https://api.themoviedb.org</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: Swift, UIKit, MVVM, SDWebImage, SnapshotTesting.
+                <br \>
+                <br \>
+                🚀 <b>Platform</b>: 📱iOS
+                <br \>
+                <br \>
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://github.com/HolyBuz/DiscoverTonight"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >
+                  <i class="fa-brands fa-github"></i>
+                  Source Code
+                  </a>
+                  </a
                 >
               </div>
             </div>
@@ -218,7 +291,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/DiscoverTonight.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -230,26 +303,52 @@ Have fun creating your portfolio on this template!!! -->
           </article>
           <!-- /END Project -->
 
+
+
+
+          <!-- BROWSAR -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title ran text-color-main">BrowsAR</h3>
+              
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Browser in Augmented Reality.
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Experiment made using ARKit.</li>
+                <li>Coupling a fully working WKWebView with a SCNNode to display a 2D View into a 3D enviroment.</li>
+                <li>Tap on the screen to add as many tabs as you like.</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: ARKit, UIKit, MVC, No Third Party libraries.
+                <br \><br \>
+                🚀 <b>Platform</b>: 📱iOS
+                <br \><br \>
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://github.com/HolyBuz/BrowsAR"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >
+                  <i class="fa-brands fa-github"></i>
+                  Source Code
+                  </a
                 >
               </div>
             </div>
@@ -258,7 +357,75 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/BrowsAR.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+
+
+
+
+          <!-- AIR QUALITY-->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title ran text-color-main">Air Quality</h3>
+              
+              <p class="project-wrapper__text-info">
+                Gather the latest air measurements from all over the world
+                <br />
+                iOS Example app using MVVM
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>More than 100 countries.</li>
+                <li>See levels of various air quality parameters.</li>
+                <li>Filter you search using various parameters.</li>
+                <li>Caching for performance.</li>
+                <li>Real live information thanks to https://openaq.org</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: Swift, Combine, No Third Party libraries.
+                <br \><br \>
+                🚀 <b>Platform</b>: 📱iOS & 🖥️MacOS
+                <br \><br \>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/HolyBuz/AirQuality"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >
+                  <i class="fa-brands fa-github"></i>
+                  Source Code
+                  </a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/HolyBuz/AirQuality" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/AirQuality.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -269,6 +436,213 @@ Have fun creating your portfolio on this template!!! -->
             </div>
           </article>
           <!-- /END Project -->
+
+
+
+
+          <!-- GPTPOPOVER -->
+           <!-- Each .row is a project -->
+           <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title ran text-color-main">GPTPopover</h3>
+              
+              <p class="project-wrapper__text-info">
+                Yet another window popover for chatGPT!
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Quickly talk to chatGPT from the menu bar!</li>
+                <li>Resize the window as you please.</li>
+                <li>Automatically close the window if you elsewhere.</li>
+                <li>Launch at login.</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: Swift, Combine.
+                <br \><br \>
+                🚀 <b>Platform</b>: 🖥️MacOS
+                <br \><br \>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >
+                  <i class="fa-brands fa-apple"></i>
+                  Soon on the app store!
+                  </a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/GPTPopover.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+
+
+          <!-- WFH CAM -->    
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title ran text-color-main">WFHCam</h3>
+              
+              <p class="project-wrapper__text-info">
+                Protect your privacy during video calls! <br />
+                 WFH Camera is a virtual camera plugin for MacOS 
+                 that automatically shuts down your camera feed when a person walks into the frame, 
+                 ensuring you're never caught off guard.
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Automatically pauses the camera feed when human presence is detected.</li>
+                <li>Real-Time Human Detection using Apple's Vision framework.</li>
+                <li>Works with any app that uses your camera, including Zoom, FaceTime, Skype, and more.</li>
+                <li>Built with Swift and Objective-C, using CoreMediaIO DAL and Vision for optimal performance.</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: Swift, Objective-C, Vision, CoreMediaIO, No Third Party libraries.
+                <br \><br \>
+                🚀 <b>Platform</b>: 🖥️MacOS
+                <br \><br \>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/HolyBuz/WFH-Camera"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >
+                  <i class="fa-brands fa-github"></i>
+                  Source Code
+                  </a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/WFHCam.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+
+
+
+          <!-- FILE DOWNLOADER -->  
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title ran text-color-main">File Downloader</h3>
+              
+              <p class="project-wrapper__text-info">
+                A simple and powerful framework for downloading files in Swift.
+              </p>
+
+              <hr>
+              <br />
+              <br />
+
+              <p class="project-wrapper__text-info">
+                ⚙️ <b>Features</b>:
+              </p>
+
+              <ul class="todolist">
+                <li>Closure-based and Combine-based APIs for flexibility.</li>
+                <li>Pause, resume, and cancel downloads.</li>
+                <li>Progress tracking.</li>
+                <li>Caching for performance.</li>
+                <li>Easy file retrieval.</li>
+              </ul>
+
+              <br \>
+              <br \>
+
+              <p class="project-wrapper__text-info">
+                🔨 <b>Technologies</b>: Swift, Combine, No Third Party libraries.
+                <br \><br \>
+                🚀 <b>Platform</b>: 📱iOS & 🖥️MacOS
+                <br \><br \>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/HolyBuz/FileDownloader"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                >
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/FileDownloader.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+
+
+
+
+
+
         </div>
       </div>
     </section>
@@ -277,76 +651,65 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Contact Me</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">
+            Curious about my work or just want to say hello? 
+            <br />
+            
+            </p>
+          <a href="mailto:holybuz@gmail.com" class="cta-btn cta-btn--resume">Let's Connect</a>
         </div>
       </div>
     </section>
     <!-- END Contact Section -->
 
+
     <!-- Footer Section -->
     <footer class="footer">
+      
       <div class="container">
+        
         <a href="#hero" class="back-to-top" aria-label="go back to top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
+        
         <div class="social-links">
+
           <a
-            href="#!"
+            href="https://medium.com/@holybuz"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="twitter"
+            aria-label="medium"
           >
-            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-medium"></i>
           </a>
+
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/alessandroloi/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
+
           <a
-            href="#!"
+            href="https://github.com/HolyBuz"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
           >
             <i class="fa-brands fa-github"></i>
           </a>
+
         </div>
+        
         <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
-        </p>
       </div>
     </footer>
     <!-- END Footer Section -->
+
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear()
@@ -354,5 +717,7 @@ Have fun creating your portfolio on this template!!! -->
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
+    <script type="text/javascript" src="./javascript/typewriterEffect.js"></script>
+
   </body>
 </html>

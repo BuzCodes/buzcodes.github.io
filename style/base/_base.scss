@@ -12,3 +12,78 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+
+
+.todolist {
+  list-style-type: none;
+  margin-left: 40px;
+  font-size: 15px;
+  text-align: left;
+
+  @include respond(phone) {
+    margin-left: 10px;
+  }
+}
+
+.todolist li::before {
+  content: "\2022";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.rainbow2{
+    
+  /* FF3.6+ */ 
+  background: -moz-linear-gradient(top, #30CFD0 0%, #FFED73 100%); 
+/* Chrome,Safari4+ */ 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#30CFD0), color-stop(100%,#FFED73));
+/* Chrome10+,Safari5.1+ */ 
+  background: -webkit-linear-gradient(top, #30CFD0 0%,#330867 100%); 
+/* Opera 11.10+ */ 
+  background: -o-linear-gradient(top, #30CFD0 0%,#FFED73 100%); 
+/* IE10+ */ 
+  background: -ms-linear-gradient(top, #30CFD0 0%,#FFED73 100%); 
+/* W3C */ 
+  background: linear-gradient(to bottom, #30CFD0 0%,#FFED73 100%); 
+
+background: linear-gradient(to right, #30CFD0 0%, #FFED73 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.social-links-hero {
+  display: flex;
+  justify-content: center;
+  
+  a {
+    font-size: 3rem;
+    display: flex;
+    
+    width: 5rem;
+    height: 5rem;
+    
+    transition: all ease 0.2s;
+    i {
+      transition: all ease-in-out 0.2s;
+    }
+    &:hover {
+      transform: scale(1.1) translateY(-2px);
+    }
+  }
+
+  .fa-twitter {
+    color: #00acee;
+  }
+  .fa-linkedin {
+    color: #4875b4;
+  }
+  .fa-medium {
+    color: rgb(37, 37, 37);
+  }
+}

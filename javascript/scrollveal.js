@@ -32,18 +32,18 @@ ScrollReveal().reveal(".scroll-down-link", {
 /* About Section */
 ScrollReveal().reveal(".section-title", {
   ...defaultProps,
-  delay: 400,
+  delay: 100,
   distance: "0px",
 });
 ScrollReveal().reveal(".about-wrapper__image", {
   ...defaultProps,
-  delay: 600,
+  delay: 100,
   scale: 0.5,
 });
 
 ScrollReveal().reveal(".about-wrapper__info", {
   ...defaultProps,
-  delay: 700,
+  delay: 100,
   distance: "100px",
   origin: window.innerWidth > 768 ? "left" : "top",
 });
@@ -51,13 +51,13 @@ ScrollReveal().reveal(".about-wrapper__info", {
 /* Projects Section */
 ScrollReveal().reveal(".project-wrapper__text", {
   ...defaultProps,
-  delay: 600,
+  delay: 100,
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
 
 ScrollReveal().reveal(".project-wrapper__image", {
   ...defaultProps,
-  delay: 600,
+  delay: 100,
   scale: 0.9,
   origin: window.innerWidth > 768 ? "right" : "bottom",
 });
@@ -65,11 +65,11 @@ ScrollReveal().reveal(".project-wrapper__image", {
 /* Contact Section */
 ScrollReveal().reveal(".contact-wrapper", {
   ...defaultProps,
-  delay: 600,
+  delay: 100,
 });
 
 ScrollReveal().reveal(".fa", {
   ...defaultProps,
-  delay: 500,
+  delay: 100,
   interval: 100,
 });

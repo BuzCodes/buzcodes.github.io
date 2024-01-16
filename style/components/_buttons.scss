@@ -89,9 +89,10 @@
 }
 /* Resume Style */
 .cta-btn--resume {
-  border-radius: 0;
+  border-radius: 20;
   color: $white-color;
-  border: 2px solid $white-color;
+  // border: 2px solid $white-color;
+  background: $secondary-color;
 
   &::after {
     background: $white-color;

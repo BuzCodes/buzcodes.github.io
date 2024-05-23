@@ -6,10 +6,10 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-.typeString('iOS Engineer')
+.typeString('Engineering Lead')
 .pauseFor(2500)
 .deleteAll()
-.typeString('Technical Leader')
+.typeString('iOS Engineer')
 .pauseFor(2500)
 .deleteAll()
 .typeString('MacOS Developer')

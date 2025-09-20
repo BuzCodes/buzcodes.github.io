@@ -15,4 +15,7 @@ typewriter
 .typeString('MacOS Developer')
 .pauseFor(2500)
 .deleteAll()
+.typeString('Mobile Engineer')
+.pauseFor(2500)
+.deleteAll()
 .start();
